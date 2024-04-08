@@ -9,12 +9,12 @@ import { CarouselPage } from "./(landingpage)/slider";
 export default function Home() {
   return (
     <>
-    <div className="">
-       <Header/>
-       <HeroPage/>
-       <InfoPage/>
-       <CarouselPage/>
-    </div>
+      <div className="">
+        <Header />
+        <HeroPage />
+        <InfoPage />
+        <CarouselPage />
+      </div>
     </>
   );
 }

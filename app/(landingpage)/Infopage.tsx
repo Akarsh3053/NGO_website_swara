@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import { FaLocationArrow } from "react-icons/fa6";
 
@@ -10,8 +9,8 @@ const InfoPage = () => {
           <div>
             <div className='flex flex-col'>
               <div className='flex'>
-                <img className='rounded-full' src="/meditation.webp" alt="/"/>
-                <img className='-ml-16' src="/flower.webp" alt="/"/>
+                <img className='rounded-full' src="/meditation.webp" alt="/" />
+                <img className='-ml-16' src="/flower.webp" alt="/" />
               </div>
               <div className='mt-2'>
                 <h1 className='text-[#00AA9C] text-4xl font-semibold'>Schedule Free</h1>
@@ -31,33 +30,33 @@ const InfoPage = () => {
                 </div>
               </div>
             </div>
-         
-       
-        <div>
-          <div className='mt-10'>
-            <h1 className='text-lg text-[#213370]'>stop panicking</h1>
-            <h1 className='text-5xl  text-[#213370] font-bold'>START LIVING.</h1>
-          </div>
-          <div className='xl:max-w-4xl lg:max-w- w-full'>
-            <p>At Swara Foundation we strongly believe that these problems are very easy and simple to deal with its 
-              just that either we fail to understand the actual thing in first place or we just start thinking vaguely
-              about consequences without even trying to solve it. Overcoming this fear is the first step to the treatment.</p>
-          </div>
 
-          <div className='mt-10'>
-            <h1 className='text-lg text-[#213370]'>TAKE BACK</h1>
-            <h1 className='text-5xl  text-[#213370] font-bold'>YOUR LIFE.</h1>
+
+            <div>
+              <div className='mt-10'>
+                <h1 className='text-lg text-[#213370]'>stop panicking</h1>
+                <h1 className='text-5xl  text-[#213370] font-bold'>START LIVING.</h1>
+              </div>
+              <div className='xl:max-w-4xl lg:max-w- w-full'>
+                <p>At Swara Foundation we strongly believe that these problems are very easy and simple to deal with its
+                  just that either we fail to understand the actual thing in first place or we just start thinking vaguely
+                  about consequences without even trying to solve it. Overcoming this fear is the first step to the treatment.</p>
+              </div>
+
+              <div className='mt-10'>
+                <h1 className='text-lg text-[#213370]'>TAKE BACK</h1>
+                <h1 className='text-5xl  text-[#213370] font-bold'>YOUR LIFE.</h1>
+              </div>
+              <div className='xl:max-w-4xl lg:max-w- w-full'>
+                <p>Due to such consuming and exhausting lifestyle these days people are facing several psychological problems which we generally overlook
+                  but in long term these problem may get even worse and sometime cause disbalance in life that's
+                  why being aware to mental problems can prevent the crisis. Knowing yourself from within is often
+                  the best way to live a healthy life both mentally and physically.</p>
+              </div>
+            </div>
           </div>
-          <div className='xl:max-w-4xl lg:max-w- w-full'>
-            <p>Due to such consuming and exhausting lifestyle these days people are facing several psychological problems which we generally overlook
-              but in long term these problem may get even worse and sometime cause disbalance in life that's
-              why being aware to mental problems can prevent the crisis. Knowing yourself from within is often
-              the best way to live a healthy life both mentally and physically.</p>
-          </div>
         </div>
-        </div>
-        </div>
-      </div>
+      </div >
     </>
   )
 }
