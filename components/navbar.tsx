@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="max-w-[1300px] m-auto flex items-center justify-between text-black p-2">
+            <header className="w-full m-auto flex items-center justify-around text-black p-2 mb-8 shadow-sm rounded-sm">
                 <div className={niconne.className}>
                     <Link href="/">
                         <h1 className="text-3xl font-semibold">Swara</h1>
@@ -18,14 +18,14 @@ const Header = () => {
                 </div>
                 <div className="md:block hidden">
                     <ul className="flex items-center gap-x-10 ">
-                        <Link href="/service">
-                            <li className="cursor-pointer">Counselling Services</li>
+                        <Link href="/services">
+                            <li className="cursor-pointer font-semibold">Counselling Services</li>
                         </Link>
                         <Link href="/career">
-                            <li className="cursor-pointer">Educational Consulting</li>
+                            <li className="cursor-pointer font-semibold">Educational Consulting</li>
                         </Link>
                         <Link href="/about">
-                            <li className="cursor-pointer">About Us</li>
+                            <li className="cursor-pointer font-semibold">About Us</li>
                         </Link>
                     </ul>
                 </div>

@@ -3,20 +3,11 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const InfoPage = () => {
   return (
-    <>
-      <div className='max-w-[1400px] m-auto p-2'>
-        <div className=''>
-          <div>
-            <div className='flex flex-col'>
-              <div className='flex'>
-                <img className='rounded-full' src="/meditation.webp" alt="/" />
-                <img className='-ml-16' src="/flower.webp" alt="/" />
-              </div>
-              <div className='mt-2'>
-                <h1 className='text-[#00AA9C] text-4xl font-semibold'>Schedule Free</h1>
-                <h1 className='text-[#A7A08C] text-3xl font-semibold flex items-center gap-x-2'>Consultation <FaLocationArrow className='text-[#00AA9C]' /> </h1>
-              </div>
-            </div>
+    <div className='max-w-[1400px] m-auto p-2'>
+      <div className="flex flex-row w-full">
+
+        <div className="w-2/3 p-4"> {/* First column takes 2/3 of the width */}
+          <div className='flex flex-col items-center gap-4'>
             <div className='flex md:flex-row mt-6 flex-col gap-x-10'>
               <div>
                 <div>
@@ -30,7 +21,6 @@ const InfoPage = () => {
                 </div>
               </div>
             </div>
-
 
             <div>
               <div className='mt-10'>
@@ -56,9 +46,42 @@ const InfoPage = () => {
             </div>
           </div>
         </div>
-      </div >
-    </>
-  )
-}
+
+        <div className="w-1/3 p-4"> {/* Second column takes 1/3 of the width */}
+          <div className='flex flex-col items-center gap-5'>
+            <div>
+              <div className='flex'>
+                <img className='rounded-full' src="/meditation.webp" alt="/" />
+                <img className='-ml-16' src="/flower.webp" alt="/" />
+              </div>
+              <div className='mt-2'>
+                <h1 className='text-[#00AA9C] text-4xl font-semibold'>Schedule Free</h1>
+                <h1 className='text-[#A7A08C] text-3xl font-semibold flex items-center gap-x-2'>Consultation <FaLocationArrow className='text-[#00AA9C]' /> </h1>
+              </div>
+            </div>
+
+            <div className='flex flex-col gap-5 items-center'>
+              <div>
+                <img src="/Quote.webp" alt="/" />
+              </div>
+              <div className='flex flex-col max-w-64'>
+                <h1>What mental health needs is more sunlight, more candor, and more unashamed conversation.
+                  <p className='mt-2 text-gray-500'>– Glenn Close</p>
+                </h1>
+              </div>
+              {/* <div className='flex flex-col max-w-64'>
+                <h1>Mental health…is not a destination, but a process. It’s about how you drive, not where you’re going
+                  <p className='mt-2 text-gray-500'>– Noam Shpencer</p>
+                </h1>
+              </div> */}
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default InfoPage
