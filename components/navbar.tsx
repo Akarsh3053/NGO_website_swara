@@ -9,15 +9,15 @@ const Header = () => {
 
     return (
         <>
-            <header className="w-full m-auto flex items-center justify-around text-black p-2 mb-8 shadow-sm rounded-sm">
+            <header className="w-full m-auto flex items-center justify-around p-2 mb-8 shadow-sm rounded-sm">
                 <div className={niconne.className}>
                     <Link href="/">
-                        <h1 className="text-3xl font-semibold">Swara</h1>
-                        <h1 className="text-3xl font-semibold">Foundation</h1>
+                        <h1 className="text-3xl font-semibold text-red-400">Swara</h1>
+                        <h1 className="text-3xl font-semibold text-red-400">Foundation</h1>
                     </Link>
                 </div>
                 <div className="md:block hidden">
-                    <ul className="flex items-center gap-x-10 ">
+                    <ul className="flex items-center gap-x-10 text-gray-900">
                         <Link href="/services">
                             <li className="cursor-pointer font-semibold">Counselling Services</li>
                         </Link>
