@@ -2,6 +2,7 @@ import React from 'react'
 import Link from "next/link";
 import { Niconne } from 'next/font/google';
 import { Contact } from './Contact';
+import { MobileNav } from './mobileNav';
 
 const niconne = Niconne({ subsets: ["latin"], weight: '400' });
 
@@ -9,7 +10,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="w-full m-auto flex items-center justify-around p-2 mb-8 shadow-sm rounded-sm">
+            <header className="w-full m-auto flex items-center md:justify-around justify-between p-2 mb-8 shadow-sm rounded-sm">
                 <div className={niconne.className}>
                     <Link href="/">
                         <h1 className="text-3xl font-semibold text-red-400">Swara</h1>
@@ -29,8 +30,11 @@ const Header = () => {
                         </Link>
                     </ul>
                 </div>
-                <div>
+                <div className='hidden md:block'>
                     <Contact />
+                </div>
+                <div className='md:hidden block'>
+                    <MobileNav />
                 </div>
             </header>
         </>

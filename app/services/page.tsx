@@ -15,7 +15,7 @@ const ServicePage = () => {
                             At Swara Academy of Psychology we provide counselling services on several problems related to different social and personal causes. We aim to to overcome these challenges and help our client with the best we can.  These counselling sessions are planned after a detailed study of patient by several psychological analysis and tests.
                         </div>
                     </div>
-                    <div>
+                    <div className='hidden md:block'>
                         <div className='max-w-[100px] flex'>
                             <img src="/Zoom.png" alt="/" />
                             <img className='rounded-full -ml-10 -z-10' src="/mainlogo.webp" alt="/" />
