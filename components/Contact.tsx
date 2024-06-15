@@ -90,7 +90,7 @@ export function Contact() {
           </DrawerHeader>
           <DrawerFooter>
             <DrawerClose asChild>
-              <Button onClick={handleSubmit} variant="default">Submit</Button>
+              <Button onClick={handleSubmit} variant="default">Send</Button>
             </DrawerClose>
           </DrawerFooter>
         </div>
