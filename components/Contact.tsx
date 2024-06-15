@@ -45,8 +45,8 @@ export function Contact() {
     e.preventDefault();
     emailjs
       .send(
-        'service_g4a1kig',
-        'template_6c1nees',
+        'service_k0tjzi9',
+        'template_oguryi2',
         {
           from_name: name,
           to_name: "Dr. Pragya Tripathi",
@@ -54,7 +54,7 @@ export function Contact() {
           to_email: "swaracounsellingnest@gmail.com",
           message: msg,
         },
-        'Zqbt0KdyiJ6MSrYRy'
+        'w6_KwrmD_Mnb9BC_x'
       )
       .then(
         () => {
